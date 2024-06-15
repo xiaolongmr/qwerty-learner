@@ -176,7 +176,7 @@ const Footer: React.FC = () => {
         <a href="https://twitter.com/real_kai42" target="_blank" title="x" rel="noreferrer">
           <IconTwitter fontSize={16} className="text-gray-500 hover:text-[#1DA1F2] dark:text-gray-400 dark:hover:text-[#1DA1F2]" />
         </a>
-        <button
+        {/* <button
           className="cursor-pointer focus:outline-none "
           type="button"
           onClick={(e) => {
@@ -186,7 +186,7 @@ const Footer: React.FC = () => {
           aria-label="考虑捐赠我们"
         >
           <IconCoffee2 fontSize={16} className="text-gray-500 hover:text-amber-500 dark:text-gray-400 dark:hover:text-amber-500" />
-        </button>
+        </button> */}
 
         <button
           className="cursor-pointer focus:outline-none"
@@ -210,11 +210,11 @@ const Footer: React.FC = () => {
           <IconMail fontSize={16} className="text-gray-500 hover:text-indigo-400 dark:text-gray-400 dark:hover:text-indigo-400" />
         </a>
 
-        <Tooltip content="中国大陆镜像">
+        {/* <Tooltip content="中国大陆镜像">
           <a href="https://kaiyiwing.gitee.io/qwerty-learner" target="_self" title="前往中国大陆镜像">
             <IconFlagChina fontSize={16} />
           </a>
-        </Tooltip>
+        </Tooltip> */}
 
         <button
           className="cursor-pointer text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
@@ -227,14 +227,14 @@ const Footer: React.FC = () => {
           @ Qwerty Learner
         </button>
 
-        <a
+        {/* <a
           className="cursor-pointer text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
           href="https://beian.miit.gov.cn"
           target="_blank"
           rel="noreferrer"
         >
           鲁ICP备2022030649号
-        </a>
+        </a> */}
         <span className="select-none rounded bg-slate-200 px-1 text-xs text-slate-600 dark:bg-slate-800 dark:text-slate-400">
           Build <span className="select-all">{LATEST_COMMIT_HASH}</span>
         </span>
